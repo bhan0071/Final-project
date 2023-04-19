@@ -147,7 +147,6 @@ body {
   .container2
   {
 	  display: grid;
-	   
   }
  .aboutus img
  {
@@ -197,6 +196,40 @@ body {
 .services h2,p
 {
 	    padding: 0px 15px;
+}
+
+/* Our Vision */
+.ourvision
+{
+	padding: 30px 90px;
+  background-image:url('../images/vision.jpg');
+  background-size:cover;
+  background-position: center center;
+  color:#fff;
+  margin-top:40px;
+}
+.ourvision p{
+  padding-left:0px;
+}
+.ourvision a
+{
+	text-align: left;
+    display: flex;
+    text-decoration: none;
+    background-color: #222 !important;
+    border:1px solid #f1be47;
+    color: #fff !important;
+    width: fit-content;
+    padding: 16px 29px;
+    margin-top: 22px;
+	margin-bottom:20px;
+}
+
+.ourvision a i
+{
+	position: relative;
+    top: 4px;
+    left: 10px;
 }
 
 /* team */
@@ -328,18 +361,25 @@ iframe
 
 @media (max-width: 768px)
 {
-	.navbar
-	{
-		padding:0;
-		display: block;
-	}
-	.logo img {
-    width: 32px;
-    float: left;
+.navbar
+{
+	padding:0;
+	display: block;
+}
+.logo{
+  background-color:#c78b07;
+}
+.navbar ul{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.logo img {
+    width: 50px;
 }
 .menu
 {
 	grid-gap:0;
+	display: block;
 }
 
 .aboutus
@@ -350,7 +390,10 @@ iframe
 {
 	padding:0;
 }
-
+.ourvision{
+  padding-left:15px;
+  padding-right:15px;
+}
 .team
 {
 	padding:0;
